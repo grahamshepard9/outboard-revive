@@ -7,19 +7,24 @@ export function Overview() {
         <SectionHeading
           id="overview-title"
           index="01"
-          eyebrow="What it is"
-          title="Old motors, brought back to running condition."
+          eyebrow="How it started"
+          title={"It started with a motor a mechanic said wasn't worth fixing."}
         />
         <div className="space-y-5 text-lg leading-relaxed text-muted-foreground">
           <p>
-            I buy old outboard motors from Facebook Marketplace, diagnose what&apos;s wrong, and
-            fully repair them, either for private clients or for resale on the market.
+            Before my first semester at Georgia Tech, some friends and I bought a Jon boat that came
+            with a 1964 Johnson in pieces. The marine mechanic at Lake Lanier said it was too old to
+            bother with. I rebuilt it anyway, and it fired right up.
           </p>
           <p>
-            The work covers the full system: tracking down electrical faults, cylinder compression
-            loss, and air-fuel mixture imbalance, then rebuilding lower units, power trim systems, water
-            pumps, and carburetors. Along the way I engineered custom electrical retrofits for
-            faulty systems.
+            That one motor turned into a habit. I wanted a bigger boat to pull friends on water
+            skis, which meant combining two broken Johnsons into one working motor. Then I started
+            buying parts motors on Marketplace, fixing them, and flipping them for a profit.
+            Eventually, a buyer trusted me to work on his own motor.
+          </p>
+          <p className="text-foreground">
+            Every motor showed up with a different problem, and each one taught me something I used
+            on the next.
           </p>
         </div>
       </div>

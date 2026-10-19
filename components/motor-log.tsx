@@ -11,10 +11,10 @@ export function MotorLog() {
             id="motors-title"
             index="03"
             eyebrow="Motor log"
-            title={"A few of the outboards I've worked on."}
+            title="Every motor, a different problem."
           />
           <p className="max-w-xs text-sm leading-relaxed text-muted-foreground">
-            Most sourced from Facebook Marketplace. Open any motor to read the full repair journal.
+            Open any motor to read the full repair journal, including what went wrong along the way.
           </p>
         </div>
 

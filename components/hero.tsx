@@ -1,7 +1,7 @@
 const facts = [
-  { label: 'Engine type', value: '2-stroke outboards' },
-  { label: 'Motors worked on', value: '1964 – 1996' },
-  { label: 'Work for', value: 'Private clients & resale' },
+  { label: 'Outboards repaired', value: '5 motors, 1964 – 1996' },
+  { label: 'Sourced from', value: 'Facebook Marketplace' },
+  { label: 'Repaired for', value: 'My boats, resale & a customer' },
 ]
 
 export function Hero() {
@@ -9,14 +9,15 @@ export function Hero() {
     <section id="top" className="bg-primary text-primary-foreground">
       <div className="mx-auto max-w-5xl px-6 pb-20 pt-16 md:pb-28 md:pt-24">
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">
-          Hands-on engineering project
+          Vintage Outboard Motor Repair
         </p>
         <h1 className="mt-5 max-w-3xl text-balance text-4xl font-semibold leading-[1.1] tracking-tight md:text-6xl">
-          Vintage Outboard Motor Repair
+          Bringing written-off outboards back to the water.
         </h1>
         <p className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-primary-foreground/80">
-          Diagnosing and fully repairing 2-stroke outboard motors for private clients and market
-          resale, from troubleshooting to complete rebuilds and custom electrical retrofits.
+          {
+            "Since the summer of 2024, I've been buying broken 2-stroke outboards, figuring out what's wrong with them, and rebuilding them until they run, for my own boats, for resale, and for a customer."
+          }
         </p>
         <p className="mt-8 text-sm text-primary-foreground/70">
           By <span className="font-semibold text-primary-foreground">Graham Shepard</span>

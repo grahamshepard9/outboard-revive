@@ -1,4 +1,17 @@
-const pillars = ['Hands-on skill', 'Passion for engineering', 'Problem solving']
+const pillars = [
+  {
+    title: 'Hands-on skill',
+    body: 'I rebuilt carburetors, lower units, and a hydraulic trim unit myself, often working from nothing more than online diagrams.',
+  },
+  {
+    title: 'Passion for engineering',
+    body: 'One broken motor on a Jon boat turned into a second boat, a profitable flip, and a customer who trusted me with his motor.',
+  },
+  {
+    title: 'Problem solving',
+    body: "When a motor died on the river or a part was nearly obsolete, I didn't quit. I tested, figured out what failed, and found another way.",
+  },
+]
 
 export function WhyItMatters() {
   return (
@@ -17,17 +30,21 @@ export function WhyItMatters() {
           id="why-title"
           className="mt-4 max-w-3xl text-balance text-3xl font-semibold leading-tight tracking-tight md:text-5xl"
         >
-          I&apos;m studying mechanical engineering at Georgia Tech, and this is where theory meets
-          the workbench.
+          I study mechanical engineering at Georgia Tech. This is where I put it to work.
         </h2>
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-primary-foreground/75">
-          This project shows what I bring beyond the classroom:
+          {
+            "Combustion, hydraulics, and electrical circuits make a lot more sense when a motor won't start until you understand them. These projects show what I bring beyond the classroom."
+          }
         </p>
         <ul className="mt-10 grid gap-px overflow-hidden rounded-md border border-white/15 bg-white/15 sm:grid-cols-3">
           {pillars.map((pillar, i) => (
-            <li key={pillar} className="bg-primary p-6">
+            <li key={pillar.title} className="bg-primary p-6">
               <span className="font-mono text-xs text-accent">0{i + 1}</span>
-              <p className="mt-3 text-lg font-medium">{pillar}</p>
+              <p className="mt-3 text-lg font-medium">{pillar.title}</p>
+              <p className="mt-2 text-sm leading-relaxed text-primary-foreground/70">
+                {pillar.body}
+              </p>
             </li>
           ))}
         </ul>
