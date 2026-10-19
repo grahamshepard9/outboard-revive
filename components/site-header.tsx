@@ -3,6 +3,7 @@ const links = [
   { href: '#work', label: 'Work' },
   { href: '#motors', label: 'Motors' },
   { href: '#why', label: 'Why' },
+  { href: '#contact', label: 'Contact' },
 ]
 
 export function SiteHeader() {

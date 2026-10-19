@@ -4,6 +4,7 @@ import { Overview } from '@/components/overview'
 import { WorkPerformed } from '@/components/work-performed'
 import { MotorLog } from '@/components/motor-log'
 import { WhyItMatters } from '@/components/why-it-matters'
+import { Contact } from '@/components/contact'
 import { SiteFooter } from '@/components/site-footer'
 
 export default function Page() {
@@ -16,6 +17,7 @@ export default function Page() {
         <WorkPerformed />
         <MotorLog />
         <WhyItMatters />
+        <Contact />
       </main>
       <SiteFooter />
     </>
